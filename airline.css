@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(image.webp);
+    background-position: center;
+    background-size: cover;
+    
+}
+.form{
+background: transparent;
+height: 700px;
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 60px;
+box-shadow: 0px 0px 60px black;
+
+}
+h1{
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    font-size: 65px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+        border: 2px solid aqua;
+
+}
+.form a{
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
